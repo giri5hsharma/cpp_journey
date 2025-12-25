@@ -11,8 +11,24 @@ int main()
 
     // using a pointer
 
-    char *s;
+    char *s = new char[50];
     cout << "enter string ";
-    cin >> (s);
-    cout << strlen(s);
+    cin >> s;
+    cout << s << endl;
+    delete[] s;
+
+    char first[50];
+    char second[50];
+
+    cout << "enter first" << endl;
+    cin.getline(first, 50);
+    cout << first << endl;
+
+    // cin.ignore();
+    // cin.ignore();
+
+    cout << "enter second" << endl;
+    cin.getline(second, 50);
+
+    cout << second << endl;
 }
