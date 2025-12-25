@@ -36,6 +36,4 @@ int main()
     }
 
     // OCCURENCE OF CHARACTER IN STRING
-
-    
 }
