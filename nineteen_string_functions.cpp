@@ -36,4 +36,7 @@ int main()
     }
 
     // OCCURENCE OF CHARACTER IN STRING
+
+    cout << strchr(first, 'n') << endl;
+    cout << strrchr(first, 'n') << endl;
 }
